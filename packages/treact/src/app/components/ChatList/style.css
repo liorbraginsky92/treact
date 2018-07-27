@@ -1,0 +1,26 @@
+.chatlist {
+  flex: 35;
+  min-width: 260px;
+}
+
+.chatbody {
+  display: flex;
+  flex: 1;
+  height: 92%; /* TODO: remove this hack */
+  overflow-y: auto;
+}
+
+.box {
+  width: 100%;
+  min-height: -webkit-min-content;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.loading {
+  color: #767676;
+  font-size: 14px;
+  margin-top: 45px;
+  text-align: center;
+}

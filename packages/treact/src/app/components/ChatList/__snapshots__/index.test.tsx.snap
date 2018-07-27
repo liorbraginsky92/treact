@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatList renders correctly 1`] = `
+<div
+  className="css-i95908"
+>
+  <div
+    className="css-c5c4qt"
+  >
+    <input
+      className="css-wdr6gu"
+      placeholder="Search"
+      type="text"
+    />
+    <div
+      className="css-171m698"
+    />
+  </div>
+  <div
+    className="css-73if51"
+  >
+    <div
+      className="css-lj1hy9"
+    >
+      Hello, world!
+    </div>
+  </div>
+</div>
+`;

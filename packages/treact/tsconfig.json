@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/app/*",
+        "src/app/store/*"
+      ]
+    },
+    "outDir": "shared",
+    "module": "esnext",
+    "target": "es2015",
+    "pretty": true,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    //"noStrictGenericChecks": true,
+    //"strictFunctionTypes": false,
+    "experimentalDecorators": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "gh-pages",
+    "build",
+    "shared",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}

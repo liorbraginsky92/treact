@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatListSearch renders correctly 1`] = `
+<div
+  className="css-c5c4qt"
+>
+  <input
+    className="css-wdr6gu"
+    placeholder="Search"
+    type="text"
+  />
+  <div
+    className="css-171m698"
+  />
+</div>
+`;
